@@ -1,0 +1,11 @@
+# This is the configuration file for SwingThroughGrass.
+
+# The list of all the blocks that should be processed by the plugin.
+# You can find all the valid block names over at https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html#enum-constant-summary
+block-whitelist:
+  - TALL_GRASS
+  - SUNFLOWER
+  - LARGE_FERN
+  - ROSE_BUSH
+  - LILAC
+  - PEONY
