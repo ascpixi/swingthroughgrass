@@ -58,7 +58,7 @@ class GrassSwingListener(private val plugin: SwingThroughGrass) : Listener {
                 2.0,
                 FluidCollisionMode.NEVER,
                 true,
-                1.0
+                0.5
             ) { e -> e.type.isAlive && e != ev.player && e != ev.player.vehicle } ?: return
 
             if (ray.hitEntity == null)
